@@ -1,27 +1,33 @@
-*.class
-/bin/
+# Gradle
+.gradle/
+build/
+out/
+classes/
 
-# Package Files #
-*.jar
-*.war
-*.ear
+# ForgeGradle
+run/
 
-# GIMP source
-*.xcf
+# Eclipse
+*.launch
 
-# Eclipse bits
+# IntelliJ Idea
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Fleet
+.fleet/
+
+# Visual Studio Code
+.settings/
+.vscode/
+bin/
 .classpath
 .project
-.directory
-/.settings/
 
-# Minecraft bits
-/minecraft/
+# Eclipse JDT LS
+workspace/
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-/.gradle/
-/build/
-
-# gradle
-!gradle-wrapper.jar
+# macOS
+*.DS_Store
